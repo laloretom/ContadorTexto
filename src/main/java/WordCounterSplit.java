@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.regex.Pattern;
 
 public class WordCounterSplit {
     public static void main(String args[]) {
@@ -21,8 +20,6 @@ public class WordCounterSplit {
         }
 
        BufferedReader in = new BufferedReader(fileReader);
-
-        Pattern pat = Pattern.compile("[\\s]*[0-9]*[0-9]+");
 
         String textLine = null;
         int contadorPalabras = 0;
